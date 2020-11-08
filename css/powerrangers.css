@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    font-family: "Comic Sans MS", sans-serif, Verdana;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background-color: #1a1919;
+}
+nav li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #e0d9d9;
+    width: 100px;
+    display: block;
+    padding: 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: #eb3def;
+    font-size: 16px;
+}
+header h1 {
+    margin: 20px;
+}
+h2{
+    margin: 15px;
+}
+main table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+main td, main th {
+    border: #1a1919 3px solid;
+}
+.ros {
+    background-color: #ec8636;
+    color: #faf3f3;
+}
+/*Ik had meer 1 mondriaan nagemaakt dus ik doe dit als extra oef/uitdaging */
+tr:nth-child(4) td:nth-child(1) {
+    background-color: #f1f160;
+    /*Witte text op fluo geel is niet prettig om te lezen ik laat de text zwart color: #faf3f3; */
+}
+tr:nth-child(5) td:nth-child(1) {
+    background-color: #a5a0a0;
+    color: #faf3f3;
+}
+tr:nth-child(6) td:nth-child(1) {
+    background-color: #f8f821;
+    /*Witte text op fluo geel is niet prettig om te lezen ik laat de text zwart color: #faf3f3; */
+}
+tr:nth-child(7) td:nth-child(1) {
+    background-color: #1a1919;
+    color: #faf3f3;
+}
+img{
+    width: 500px;
+}
